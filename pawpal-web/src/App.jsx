@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Literature from "./components/Literature";
+import Methodology from "./components/Methodology";
 import Navbar from "./components/Navbar";
 import ResearchObjectives from "./components/ResearchObjectives";
 import ResearchProblemSolution from "./components/ResearchProblemSolution";
@@ -15,6 +16,7 @@ function App() {
         <Literature />
         <ResearchProblemSolution />
         <ResearchObjectives />
+        <Methodology />
       </main>
       <Footer />
     </>
