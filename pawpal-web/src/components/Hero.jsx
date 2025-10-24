@@ -1,16 +1,21 @@
+import Reveal from "./Reveal";
+
 export default function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate overflow-hidden bg-gradient-to-br from-[#0F5CFF] via-[#ECF3FF] to-[#70B7FF]"
+      className="relative isolate overflow-hidden bg-gradient-to-br from-[#BEE6FF] via-[#F5FBFF] to-[#9DD4FF]"
     >
       <div className="absolute inset-0 -z-10">
         <div className="absolute -top-24 -left-12 h-64 w-64 rounded-full bg-white/45 blur-3xl" />
-        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-[#0F5CFF]/20 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-[#BEE6FF]/40 blur-3xl" />
       </div>
 
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center gap-12 px-6 py-24 lg:flex-row lg:items-center lg:justify-between lg:px-10">
-        <div className="z-20 max-w-xl text-center text-slate-900 sm:text-left lg:-mr-16">
+        <Reveal className="z-20 max-w-xl text-center text-slate-900 sm:text-left lg:-mr-16" variant="up" as="div">
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/60 bg-white/70 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#2E7CB8] shadow-sm backdrop-blur">
+            Petcare reimagined
+          </span>
 
           <h1 className="mt-6 text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
             PawPal keeps every tail wagging with on-demand pet care services
@@ -44,17 +49,17 @@ export default function Hero() {
               Scroll to explore the PawPal experience, features, and how we keep pets thriving.
             </p>
           </div>
-        </div>
+        </Reveal>
 
-        <div className="relative w-full max-w-lg lg:max-w-xl">
-          <div className="absolute -left-10 top-10 hidden h-32 w-32 rounded-3xl border border-white/40 bg-white/30 shadow-lg shadow-blue-200/40 backdrop-blur lg:block" />
+        <Reveal className="relative w-full max-w-lg lg:max-w-xl" variant="right" as="div">
+          <div className="absolute -left-10 top-10 hidden h-32 w-32 rounded-3xl border border-white/40 bg-white/40 shadow-lg shadow-[#BEE6FF]/50 backdrop-blur lg:block" />
           <img
             src="/app-mockup-2.png"
             alt="PawPal mobile experience"
-            className="relative z-10 w-full origin-bottom -rotate-2 rounded-3xl border border-white/40 bg-white/10 shadow-[0_40px_90px_-40px_rgba(15,92,255,0.65)]"
+            className="relative z-10 w-full origin-bottom -rotate-2 rounded-3xl border border-white/40 bg-white/10 shadow-[0_40px_90px_-40px_rgba(158,210,255,0.65)]"
           />
-          <div className="absolute bottom-10 right-0 h-36 w-36 rounded-full border border-white/50 bg-blue-200/60 blur-2xl lg:-right-12 lg:bottom-0" />
-        </div>
+          <div className="absolute bottom-10 right-0 h-36 w-36 rounded-full border border-white/50 bg-[#D6EEFF]/80 blur-2xl lg:-right-12 lg:bottom-0" />
+        </Reveal>
       </div>
     </section>
   );

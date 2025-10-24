@@ -1,0 +1,28 @@
+/* Global reveal animation utilities */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  will-change: opacity, transform;
+}
+
+.reveal.reveal-right {
+  transform: translate3d(24px, 0, 0);
+}
+
+.reveal.reveal-left {
+  transform: translate3d(-24px, 0, 0);
+}
+
+.reveal.reveal-scale {
+  transform: scale(0.95);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.reveal.reveal-scale.is-visible {
+  transform: scale(1);
+}
