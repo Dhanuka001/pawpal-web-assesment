@@ -83,39 +83,6 @@ export default function Literature() {
             </ul>
           </aside>
         </div>
-
-        <div className="overflow-hidden rounded-3xl border border-black/5 bg-black text-white">
-          <div className="grid gap-8 p-8 lg:grid-cols-[1.2fr_1fr] lg:p-10">
-            <div className="space-y-4">
-              <h3 className="text-2xl font-semibold">The literature in one snapshot</h3>
-              <p className="text-sm leading-relaxed text-white/80 sm:text-base">
-                Put together, prior work showcases the potential of digital pet care, but
-                leaves meaningful integration unfinished. PawPal advances the field with a
-                holistic approach that is software-only, affordable, and accessible.
-              </p>
-            </div>
-            <ul className="space-y-3 text-sm text-white/80 sm:text-base">
-              <li className="flex items-center gap-3">
-                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full border border-white/30 text-xs">
-                  AI
-                </span>
-                Intelligent symptom triage and proactive wellness nudges.
-              </li>
-              <li className="flex items-center gap-3">
-                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full border border-white/30 text-xs">
-                  ML
-                </span>
-                Personalized care plans that evolve with pet activity and history.
-              </li>
-              <li className="flex items-center gap-3">
-                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full border border-white/30 text-xs">
-                  UX
-                </span>
-                Seamless vet booking and case matching for faster, reliable treatment.
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
   );
