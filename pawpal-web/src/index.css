@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  font-family: inherit;
+}
