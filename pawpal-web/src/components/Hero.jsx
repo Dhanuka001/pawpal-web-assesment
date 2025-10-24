@@ -28,7 +28,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-start">
             <a
-              href="#project-scope"
+              href="#literature"
               className="inline-flex items-center gap-3 rounded-full bg-slate-900 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-900/60"
             >
               View more
