@@ -17,14 +17,14 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden space-x-8 md:flex">
             <a href="#home" className="text-gray-800 hover:text-blue-600 font-medium">Home</a>
 
             <div className="relative group">
               <button className="text-gray-800 hover:text-blue-600 font-medium">
                 Project Scope ▾
               </button>
-              <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-md w-56">
+              <div className="absolute left-0 top-full z-20 hidden w-56 rounded-md bg-white opacity-0 shadow-lg transition-all duration-200 group-hover:block group-hover:translate-y-0 group-hover:opacity-100 md:translate-y-2">
                 <a href="#literature" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Literature Survey</a>
                 <a href="#gap" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Research Gap</a>
                 <a href="#problem" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Problem & Solution</a>
@@ -38,7 +38,7 @@ export default function Navbar() {
               <button className="text-gray-800 hover:text-blue-600 font-medium">
                 Downloads ▾
               </button>
-              <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-md w-48">
+              <div className="absolute left-0 top-full z-20 hidden w-48 rounded-md bg-white opacity-0 shadow-lg transition-all duration-200 group-hover:block group-hover:translate-y-0 group-hover:opacity-100 md:translate-y-2">
                 <a href="#documents" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Documents</a>
                 <a href="#presentations" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Presentations</a>
               </div>
