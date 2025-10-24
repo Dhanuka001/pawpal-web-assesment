@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const technologies = [
   {
     name: "Flutter",
@@ -52,7 +54,11 @@ export default function Technologies() {
       id="technologies"
       className="bg-gradient-to-b from-white via-[#ECF7FF] to-white px-6 py-20 text-slate-900 sm:px-10"
     >
-      <div className="mx-auto flex max-w-6xl flex-col gap-12">
+      <Reveal
+        as="div"
+        className="mx-auto flex max-w-6xl flex-col gap-12"
+        variant="up"
+      >
         <header className="space-y-3 text-center sm:text-left">
           <span className="inline-flex justify-center rounded-full bg-[#CFE9FF] px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-[#1E6FB8] sm:justify-start">
             Technologies Used
@@ -88,7 +94,7 @@ export default function Technologies() {
             ))}
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

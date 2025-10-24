@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const highlights = [
   {
     title: "Research Problem",
@@ -17,7 +19,11 @@ export default function ResearchProblemSolution() {
       id="problem"
       className="bg-white px-6 py-24 text-slate-900 sm:px-10"
     >
-      <div className="mx-auto flex max-w-6xl flex-col gap-16">
+      <Reveal
+        as="div"
+        className="mx-auto flex max-w-6xl flex-col gap-16"
+        variant="up"
+      >
         <header className="space-y-6 text-center sm:text-left">
           <span className="inline-flex justify-center text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 sm:justify-start">
             Research Problem &amp; Solution
@@ -100,7 +106,7 @@ export default function ResearchProblemSolution() {
             </div>
           </aside>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

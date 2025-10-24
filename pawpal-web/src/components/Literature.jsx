@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const keyPoints = [
   "Existing apps are single-function; end-to-end flows (triage → referral → booking) are rare.",
   "Service matching for pet providers is underexplored; literature favors generic ratings, not pet-fit recommendations.",
@@ -13,7 +15,11 @@ export default function Literature() {
       id="literature"
       className="bg-white px-6 py-24 text-black sm:px-10"
     >
-      <div className="mx-auto flex max-w-6xl flex-col gap-16">
+      <Reveal
+        as="div"
+        className="mx-auto flex max-w-6xl flex-col gap-16"
+        variant="up"
+      >
         <header className="space-y-6">
           <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-black/60">
             Literature Survey
@@ -83,7 +89,7 @@ export default function Literature() {
             </ul>
           </aside>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

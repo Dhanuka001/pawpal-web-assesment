@@ -1,10 +1,16 @@
+import Reveal from "./Reveal";
+
 export default function Methodology() {
   return (
     <section
       id="methodology"
       className="bg-white px-6 py-20 text-slate-900 sm:px-10"
     >
-      <div className="mx-auto flex max-w-6xl flex-col gap-10">
+      <Reveal
+        as="div"
+        className="mx-auto flex max-w-6xl flex-col gap-10"
+        variant="up"
+      >
         <header className="space-y-2 text-center sm:text-left">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">
             Methodology
@@ -52,7 +58,7 @@ export default function Methodology() {
             PawPal delivers an integrated, AI-driven pet-care experience.
           </p>
         </article>
-      </div>
+      </Reveal>
     </section>
   );
 }

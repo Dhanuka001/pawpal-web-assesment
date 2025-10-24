@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const objectives = [
   {
     step: "1",
@@ -42,7 +44,11 @@ export default function ResearchObjectives() {
       id="objectives"
       className="bg-gradient-to-b from-[#CFE9FF] via-white to-white px-6 py-16 text-slate-900 sm:px-10"
     >
-      <div className="mx-auto flex max-w-6xl flex-col gap-12">
+      <Reveal
+        as="div"
+        className="mx-auto flex max-w-6xl flex-col gap-12"
+        variant="up"
+      >
         <header className="space-y-3 text-center sm:text-left">
           <span className="inline-flex justify-center text-xs font-semibold uppercase tracking-[0.3em] text-[#3E9FEF] sm:justify-start">
             Research Objectives
@@ -88,7 +94,7 @@ export default function ResearchObjectives() {
             ))}
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }
