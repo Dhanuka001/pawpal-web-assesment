@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Literature from "./components/Literature";
+import ResearchGap from "./components/ResearchGap";
 import Navbar from "./components/Navbar";
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
       <main className="pt-16">
         <Hero />
         <Literature />
+        <ResearchGap />
       </main>
       <Footer />
     </>
