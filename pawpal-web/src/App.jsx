@@ -5,6 +5,7 @@ import Methodology from "./components/Methodology";
 import Navbar from "./components/Navbar";
 import ResearchObjectives from "./components/ResearchObjectives";
 import ResearchProblemSolution from "./components/ResearchProblemSolution";
+import Technologies from "./components/Technologies";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <ResearchProblemSolution />
         <ResearchObjectives />
         <Methodology />
+        <Technologies />
       </main>
       <Footer />
     </>
