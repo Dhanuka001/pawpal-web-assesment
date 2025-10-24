@@ -7,7 +7,7 @@ const technologies = [
   {
     name: "JWT",
     category: "Auth & Security",
-    logo: "https://raw.githubusercontent.com/auth0-blog/assets/main/verified-logos/jwt-logo-color.png",
+    logo: "/jwt.png",
   },
   {
     name: "Python",
@@ -22,12 +22,12 @@ const technologies = [
   {
     name: "MongoDB",
     category: "Database",
-    logo: "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg",
+    logo: "/mongo.png",
   },
   {
     name: "Ollama",
     category: "Local LLM",
-    logo: "https://raw.githubusercontent.com/jmorganca/ollama/main/docs/static/img/icon.png",
+    logo: "/ollama.png",
   },
   {
     name: "TensorFlow",
@@ -42,7 +42,7 @@ const technologies = [
   {
     name: "VS Code",
     category: "Development IDE",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Visual_Studio_Code_1.35_icon.svg",
+    logo: "/vs.png",
   },
 ];
 
