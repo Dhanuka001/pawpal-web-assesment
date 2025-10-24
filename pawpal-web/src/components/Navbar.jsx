@@ -26,7 +26,6 @@ export default function Navbar() {
               </button>
               <div className="absolute left-0 top-full z-20 hidden w-56 rounded-md bg-white opacity-0 shadow-lg transition-all duration-200 group-hover:block group-hover:translate-y-0 group-hover:opacity-100 md:translate-y-2">
                 <a href="#literature" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Literature Survey</a>
-                <a href="#gap" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Research Gap</a>
                 <a href="#problem" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Problem & Solution</a>
                 <a href="#objectives" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Objectives</a>
                 <a href="#methodology" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Methodology</a>

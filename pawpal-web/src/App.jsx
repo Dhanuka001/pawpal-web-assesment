@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Literature from "./components/Literature";
-import ResearchGap from "./components/ResearchGap";
 import Navbar from "./components/Navbar";
+import Literature from "./components/Literature";
+import ResearchProblemSolution from "./components/ResearchProblemSolution";
 import "./App.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <main className="pt-16">
         <Hero />
         <Literature />
-        <ResearchGap />
+        <ResearchProblemSolution />
       </main>
       <Footer />
     </>
