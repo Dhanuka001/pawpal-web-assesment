@@ -38,8 +38,8 @@ export default function Navbar() {
                 Downloads ▾
               </button>
               <div className="absolute left-0 top-full z-20 hidden w-48 rounded-md bg-white opacity-0 shadow-lg transition-all duration-200 group-hover:block group-hover:translate-y-0 group-hover:opacity-100 md:translate-y-2">
-                <a href="#documents" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Documents</a>
-                <a href="#presentations" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Presentations</a>
+                <a href="#downloads" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Documents</a>
+                <a href="#downloads" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Presentations</a>
               </div>
             </div>
 
@@ -79,8 +79,8 @@ export default function Navbar() {
           <a href="#objectives" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Objectives</a>
           <a href="#methodology" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Methodology</a>
           <a href="#technologies" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Technologies</a>
-          <a href="#documents" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Documents</a>
-          <a href="#presentations" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Presentations</a>
+          <a href="#downloads" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Documents</a>
+          <a href="#downloads" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Presentations</a>
           <a href="#about" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">About Us</a>
           <a href="#contact" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Contact</a>
         </div>

@@ -144,7 +144,7 @@ export default function Downloads() {
                 <ResourceCard
                   key={resource.title}
                   Icon={DocumentIcon}
-                  accent={index % 2 === 0 ? "bg-gradient-to-br from-[#1E6FB8] to-[#4F9EE7]" : "bg-gradient-to-br from-[#4F9EE7] to-[#1E6FB8]"}
+                  accent="bg-white"
                   {...resource}
                 />
               ))}
@@ -160,7 +160,7 @@ export default function Downloads() {
                 <ResourceCard
                   key={resource.title}
                   Icon={PresentationIcon}
-                  accent={index % 2 === 0 ? "bg-gradient-to-br from-[#1E6FB8] to-[#7AB6F2]" : "bg-gradient-to-br from-[#7AB6F2] to-[#1E6FB8]"}
+                  accent="bg-white"
                   {...resource}
                 />
               ))}
