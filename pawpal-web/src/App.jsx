@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Literature from "./components/Literature";
 import Methodology from "./components/Methodology";
 import Navbar from "./components/Navbar";
+import Downloads from "./components/Downloads";
 import ResearchObjectives from "./components/ResearchObjectives";
 import ResearchProblemSolution from "./components/ResearchProblemSolution";
 import ScrollTopButton from "./components/ScrollTopButton";
@@ -21,6 +22,7 @@ function App() {
         <ResearchObjectives />
         <Methodology />
         <Technologies />
+        <Downloads />
         <About />
       </main>
       <Footer />
