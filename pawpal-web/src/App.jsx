@@ -5,6 +5,7 @@ import Literature from "./components/Literature";
 import Methodology from "./components/Methodology";
 import Navbar from "./components/Navbar";
 import Downloads from "./components/Downloads";
+import Contact from "./components/Contact";
 import ResearchObjectives from "./components/ResearchObjectives";
 import ResearchProblemSolution from "./components/ResearchProblemSolution";
 import ScrollTopButton from "./components/ScrollTopButton";
@@ -24,6 +25,7 @@ function App() {
         <Technologies />
         <Downloads />
         <About />
+        <Contact />
       </main>
       <Footer />
       <ScrollTopButton />
