@@ -6,6 +6,7 @@ import Methodology from "./components/Methodology";
 import Navbar from "./components/Navbar";
 import Downloads from "./components/Downloads";
 import Contact from "./components/Contact";
+import Milestones from "./components/Milestones";
 import ResearchObjectives from "./components/ResearchObjectives";
 import ResearchProblemSolution from "./components/ResearchProblemSolution";
 import ScrollTopButton from "./components/ScrollTopButton";
@@ -23,6 +24,7 @@ function App() {
         <ResearchObjectives />
         <Methodology />
         <Technologies />
+        <Milestones />
         <Downloads />
         <About />
         <Contact />

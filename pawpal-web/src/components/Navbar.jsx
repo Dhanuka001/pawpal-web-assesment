@@ -17,7 +17,7 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Menu */}
-          <div className="hidden space-x-8 md:flex">
+          <div className="hidden items-center space-x-8 md:flex">
             <a href="#home" className="text-gray-800 hover:text-blue-600 font-medium">Home</a>
 
             <div className="relative group">
@@ -32,6 +32,8 @@ export default function Navbar() {
                 <a href="#technologies" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Technologies</a>
               </div>
             </div>
+
+            <a href="#milestones" className="text-gray-800 hover:text-blue-600 font-medium">Milestones</a>
 
             <div className="relative group">
               <button className="text-gray-800 hover:text-blue-600 font-medium">
@@ -79,6 +81,7 @@ export default function Navbar() {
           <a href="#objectives" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Objectives</a>
           <a href="#methodology" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Methodology</a>
           <a href="#technologies" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Technologies</a>
+          <a href="#milestones" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Milestones</a>
           <a href="#downloads" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Documents</a>
           <a href="#downloads" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">Presentations</a>
           <a href="#about" onClick={handleNavClick} className="block px-4 py-2 hover:bg-blue-50">About Us</a>
