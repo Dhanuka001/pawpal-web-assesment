@@ -14,8 +14,9 @@ export default function Hero() {
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center gap-12 px-6 py-24 lg:flex-row lg:items-center lg:justify-between lg:px-10">
         <Reveal className="z-20 max-w-xl text-center text-slate-900 sm:text-left lg:-mr-16" variant="up" as="div">
 
-          <h1 className="mt-6 text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            PawPal keeps every tail wagging with on-demand pet care services
+          <h1 className="mt-6 text-4xl font-semibold leading-tight text-slate-950sm:text-5xl lg:text-6xl">
+            An AI Powered Mobile application for
+Intelligent Pet Care and Social Welfare in Sri Lanka
           </h1>
 
           <p className="mt-6 text-base text-slate-700 sm:text-lg">
