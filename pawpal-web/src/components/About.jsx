@@ -8,6 +8,7 @@ const supervisors = [
     department: "Department of Information Technology",
     linkedin: "https://www.linkedin.com/",
     email: "alex.fernando@example.com",
+    photo: "/s-1.jpg"
   },
   {
     name: "Dr.Dinuka Wijendra",
@@ -16,6 +17,7 @@ const supervisors = [
     department: "Department of Information Technology",
     linkedin: "https://www.linkedin.com/",
     email: "nethmi.perera@example.com",
+    photo: "/s-2.jpg"
   },
 ];
 
@@ -27,6 +29,7 @@ const teamMembers = [
     department: "Department of Information Technology",
     linkedin: "https://www.linkedin.com/",
     email: "dinuka.silva@example.com",
+    photo: "/gm-1.jpeg"
   },
   {
     name: "Godage P S P",
@@ -35,6 +38,7 @@ const teamMembers = [
     department: "Department of Information Technology",
     linkedin: "https://www.linkedin.com/",
     email: "rashmi.j@example.com",
+    photo: "/gm-2.jpeg"
   },
   {
     name: "Rathnayaka R M L D",
