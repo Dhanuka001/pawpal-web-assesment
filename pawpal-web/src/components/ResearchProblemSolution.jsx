@@ -76,23 +76,27 @@ export default function ResearchProblemSolution() {
 
           <aside className="flex flex-col gap-6">
             <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-black/90 text-white shadow-lg before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_top,#0F5CFF33,transparent_60%)]">
-              <div className="relative flex aspect-[16/9] items-center justify-center bg-slate-900">
-                <button
-                  type="button"
-                  aria-label="Play PawPal overview video"
-                  className="group flex h-20 w-20 items-center justify-center rounded-full bg-white/10 transition hover:bg-white/20"
-                >
-                  <span className="ml-1 inline-block h-0 w-0 border-y-[14px] border-y-transparent border-l-[24px] border-l-white" />
-                </button>
+              <div
+                className="relative aspect-[16/9] overflow-hidden bg-slate-900 bg-cover bg-center"
+                style={{ backgroundImage: "url('/thumbnail.png')" }}
+              >
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube.com/embed/5-QzOitXTbE?rel=0"
+                  title="PawPal product walkthrough"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  loading="lazy"
+                />
               </div>
               <div className="relative space-y-3 px-6 py-6">
                 <h3 className="text-lg font-semibold">Watch PawPal in action</h3>
                 <p className="text-sm text-white/70">
-                  This YouTube walkthrough introduces our AI triage, booking flow, and donation intelligence.
+                  This guided demo walks through AI triage, booking flows, and donation intelligence inside the PawPal app.
                 </p>
                 <div className="flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-white/60">
                   <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400" />
-                  Coming soon
+                  Now available
                 </div>
               </div>
             </div>
